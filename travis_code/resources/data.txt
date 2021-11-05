@@ -1,0 +1,5 @@
+AppUser{firstName='Travis', lastName='Jewell', email='travestyny@yahoo.com', username='travestyny', password='hello'}
+AppUser{firstName='John', lastName='Doe', email='doe@yahoo.com', username='doey', password='giveme'}
+Travis:Jewell:travestyny@yahoo.com:traverstyn:love
+Jone:doe:hello@yahoo.com:joney:yea
+travis:jewell:trav@yahoo.com:trav:hello
