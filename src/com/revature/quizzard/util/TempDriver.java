@@ -17,7 +17,11 @@ public class TempDriver {
         System.out.println(myStringList.contains("test-3")); // true
         System.out.println(myStringList.contains("test-123")); // false
         
+<<<<<<< HEAD
         // Make some different change to a file
+=======
+        // THIS WILL CAUSE A MERGE CONFLICT
+>>>>>>> 8062c3fc168c38bcebadcda33e4725166684be21
 
     }
 
