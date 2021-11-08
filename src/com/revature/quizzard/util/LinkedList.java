@@ -1,5 +1,5 @@
 package com.revature.quizzard.util;
-
+//new2
 public class LinkedList<T> implements List<T> {
 
     private int size;
@@ -50,7 +50,9 @@ public class LinkedList<T> implements List<T> {
     // TODO: IMPLEMENT ME!
     @Override
     public boolean remove(T element) {
-        return false;
+
+    return false;
+
     }
 
     @Override
@@ -59,17 +61,26 @@ public class LinkedList<T> implements List<T> {
     }
 
     // TODO: IMPLEMENT ME!
+
+
+
     @Override
     public T get(int index) {
-        return null;
+
+        if(isEmpty()) return null;
+
+        if (index==0) return head.data;
+        if(index>size)return null;
+        Node<T> runner = head;
+
+        for (int ii = 0; ii <= index; ii++) {
+            runner = runner.nextNode;
+
+        }
+        return runner.data;
     }
 
-//    @Override // works without issue!
-//    public void defaultMethodExample() {
-//        System.out.println("This is an overridden default method.");
-//    }
 
-//    @Override // static methods inherited from interfaces CANNOT be overridden; but
     public static void staticMethodExample() {
         System.out.println("This is a method that shadows the static method declared by List");
     }
